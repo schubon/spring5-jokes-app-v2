@@ -1,14 +1,13 @@
 <!DOCTYPE html >
 
-<html lang="en" xmlns:thyl="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
     <title>Your Chuck Norris Joke:</title>
 </head>
 <body>
-<h1>Your Chuck Norris Joke:</h1>
-<br/>
-<p thyl:text="${joke}">Joke Text</p>
+    <h1>Your Chuck Norris Joke:</h1>
+    <p th:text="${joke}">Joke Text</p>
 </body>
 </html>
